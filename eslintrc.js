@@ -19,7 +19,7 @@ module.exports = {
     },
     rules: {
         'prettier/prettier': ['error', { endOfLine: 'auto' }],
-        'no-unused-vars': 'error',
+        'no-unused-vars': ['error', { vars: 'all', args: 'none' }],
         'react/jsx-key': 'error',
         'array-element-newline': 0,
         'default-case': 'error',
